@@ -19,7 +19,7 @@ totalRow.appendChild(totalTimeCell);
 
 // add a row to the table to indicate that the data is loading
 table.appendChild(totalRow);
-table.insertAdjacentHTML('beforeend', '<tr><td colspan="2">Loading...</td></tr>');
+table.insertAdjacentHTML('beforeend', '<tr id="loading">Loading...</tr>');
 
 // wait for all Promises to resolve using Promise.all
 const startTime = Date.now();
