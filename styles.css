@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+thead{
+	background-color: blue;
+	color: white;
+}
+tbody{
+	background-color: green;
+	color: white;
+}
+#loading{
+	color: white;
+}
