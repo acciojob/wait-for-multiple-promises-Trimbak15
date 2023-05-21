@@ -1,5 +1,5 @@
-// Wrap the code in DOMContentLoaded event listener
-document.addEventListener('DOMContentLoaded', () => {
+// Wrap the code in a setTimeout function to delay its execution
+setTimeout(() => {
   // Get reference to the table
   const table = document.getElementById('my-table');
 
@@ -49,4 +49,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }).catch((error) => {
     console.error(error); // handle errors
   });
-});
+}, 100);
